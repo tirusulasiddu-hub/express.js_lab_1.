@@ -10,7 +10,7 @@
 
 ## Live Link
 
-- **Deployment Status:** Local development and verification complete. Live cloud deployment is currently pending / not configured for this submission. The application is configured with `process.env.PORT || 3000` to support cloud deployment platforms (such as Render, Railway, or Vercel) seamlessly.
+https://express-js-lab-1.vercel.app/
 
 ## Objective
 
