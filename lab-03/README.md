@@ -1,9 +1,9 @@
 # Lab 3: REST API, query parameters, validation, debugging
 
-**Name:** YOUR NAME HERE · **Registration number:** YOUR REG NO HERE · **Section:** YOUR SECTION HERE
+**Name:**T. Apurup Siddardha **Registration number:** 252U1R7091 **Section:** CSE-SD-2B
 
-**Live link:** PASTE_YOUR_PUBLIC_URL_HERE
-*(If the project could not be deployed, replace this line with the reason, e.g. "Not deployed: free hosting was unavailable. Postman screenshots of every endpoint are shown below.")*
+**Live link:** lab-03-tau.vercel.app
+
 
 ---
 
