@@ -104,63 +104,47 @@ Example: `GET /books?search_q=java&min_price=200&max_price=800&order_by=price&or
 
 ## Screenshots
 
-> Screenshots are stored in the `screenshots/` folder. See `screenshots/SCREENSHOTS_CHECKLIST.md` for what to capture and the exact file names.
-
 ### Server and success cases
 
 ![Server running in the terminal](screenshots/01-server-running.png)
 
-![GET /books with default values (200)](screenshots/02-get-books-default.png)
+![GET /books with default values (200)](screenshots/get-books-default.png)
 
-![Search with search_q (200)](screenshots/03-search-q.png)
+![Search with search_q (200)](screenshots/search-q.png)
 
 ![Sorting with order_by and order (200)](screenshots/04-sort-order.png)
 
-![Pagination with limit and offset (200)](screenshots/05-limit-offset.png)
+![Pagination with limit and offset (200)](screenshots/limit-offset.png)
 
-![Price range with min_price and max_price (200)](screenshots/06-price-range.png)
+![Price range with min_price and max_price (200)](screenshots/price-range.png)
 
-![GET /books/:id (200)](screenshots/07-get-by-id.png)
+![GET /books/:id (200)](screenshots/get-by-id.png)
 
-![POST /books creates a book (201)](screenshots/08-post-201.png)
+![POST /books creates a book (201)](screenshots/post-201.png)
 
-![PUT /books/:id updates a book (200)](screenshots/09-put-200.png)
+![PUT /books/:id updates a book (200)](screenshots/put-200.png)
 
-![DELETE /books/:id deletes a book (200)](screenshots/10-delete-200.png)
+![DELETE /books/:id deletes a book (200)](screenshots/delete.png)
 
 ### Failure cases
 
-![POST with missing title (400)](screenshots/11-post-missing-title-400.png)
+![POST with missing title (400)](screenshots/post-missing-title-400.png)
 
-![POST with missing author (400)](screenshots/12-post-missing-author-400.png)
+![POST with missing author (400)](screenshots/post-missing-author-400.png)
 
-![POST with non-numeric price (400)](screenshots/13-post-bad-price-400.png)
+![POST with non-numeric price (400)](screenshots/non-numeric.png)
 
-![GET /books/:id that does not exist (404)](screenshots/14-get-404.png)
+![GET /books/:id that does not exist (404)](screenshots/get-404.png)
 
-![PUT /books/:id that does not exist (404)](screenshots/15-put-404.png)
+![PUT /books/:id that does not exist (404)](screenshots/put-404.png)
 
-![DELETE /books/:id that does not exist (404)](screenshots/16-delete-404.png)
+![DELETE /books/:id that does not exist (404)](screenshots/delete-404.png)
 
-![Invalid query parameter (400)](screenshots/17-invalid-query-400.png)
+![Invalid query parameter (400)](screenshots/invalid-query.png)
 
-### Postman collection and database
+### Postman collection
 
-![Postman collection run: all tests passing](screenshots/18-postman-collection-run.png)
-
-![Database view of the books table](screenshots/19-database-view.png)
-
-### Debugging exercise
-
-![EADDRINUSE error](screenshots/20-debug-eaddrinuse.png)
-
-![Wrong import path error](screenshots/21-debug-import-path.png)
-
-![no such table error](screenshots/22-debug-no-such-table.png)
-
-![Missing await (empty {} response)](screenshots/23-debug-missing-await.png)
-
-![All four bugs fixed and the API working](screenshots/24-debug-fixed.png)
+![Postman collection run: all tests passing](screenshots/postman-collection-run.png)
 
 ---
 
